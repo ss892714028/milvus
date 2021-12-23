@@ -16,7 +16,7 @@ a vchannel contains DML messages of many segments. **Most importantly, the DML m
 
 ## What is the real meaning of DataNode recovery?
 
-DataNode is stateless, but vchannel has states. DataNode's statelessness is guaranteed by DataCoord, which
+DataNode is stateless, but vchannel has a states. DataNode's statelessness is guaranteed by DataCoord, which
 means the vchannel's state is maintained by DataCoord. So DataNode recovery is no different from starting.
 
 So what's DataNode's starting procedure?
